@@ -42,4 +42,9 @@ nav {
     tracking-widest text-[--text-primary] text-[.6rem] opacity-80 hover:opacity-100
     transition-all hover:border-[#00ffff]/90 hover:text-[#00ffff]/100 duration-500 hover:scale-105;
   }
+
+  .ring {
+    @apply rounded-full border  border-[--highlight-ring] opacity-20  h-[350px] 
+    w-[350px] md:h-[650px] md:w-[650px] absolute  animate-pulse left-0;
+  }
 }

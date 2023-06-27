@@ -17,27 +17,27 @@ export default function Rings() {
         transition={{
           duration: 2.5,
         }}
-        className='relative  flex justify-center items-center max-w-[600px] w-full h-[600px]'
+        className='relative flex justify-center items-center max-w-[650px] w-full h-[60px] '
       >
-        <div className='absolute border border-[--default-ring] rounded-full h-[200px] w-[200px] mt-52 animate-ping' />
-        <div className=' rounded-full border   border-[--default-ring] w-[250px] h-[250px]  md:h-[300px] md:w-[300px] absolute mt-52 ' />
-        <div className='invisible md:visible rounded-full border   border-[--default-ring]  h-[500px] w-[500px] absolute mt-52 ' />
+        <div className='absolute border border-[--default-ring] rounded-full h-[200px] w-[200px] animate-ping' />
+        <div className=' rounded-full border   border-[--default-ring] w-[250px] h-[250px]  md:h-[300px] md:w-[300px] absolute  ' />
+        <div className='invisible md:visible rounded-full border   border-[--default-ring]  h-[500px] w-[500px] absolute ' />
 
-        <div className=' rounded-full border  border-[--highlight-ring] opacity-20  h-[350px] w-[350px] md:h-[650px] md:w-[650px] absolute mt-52 animate-pulse ' />
+        <div className=' rounded-full border  border-[--highlight-ring] opacity-20  h-[350px] w-[350px] md:h-[650px] md:w-[650px] absolute  animate-pulse ' />
         <div
           className='rounded-full border invisible md:visible  border-[--default-ring]  h-[400px] w-[400px]  first-letter:
-      flex
-      absolute mt-52 '
-        ></div>
+      
+      absolute  '
+        />
       </motion.div>
-      <section className='absolute top-[100px] h-screen   flex items-center  '>
+      {/* <section className='absolute top-[100px]  h-screen   flex items-center  '>
         <Image
           width={150}
           className='rounded-full object-cover '
           src={avatar}
           alt='hero'
         />
-      </section>
+      </section> */}
     </>
   );
 }
