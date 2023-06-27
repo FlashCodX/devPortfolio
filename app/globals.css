@@ -3,9 +3,10 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --primary: #0a0a0a;
+  --secondary: #00ffff;
+  --text-primary: #ffffff;
+  --text-secondary: #000000;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -13,15 +14,32 @@
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
+
+    --default-ring: #333333;
+    --highlight-ring: var(--secondary);
   }
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  /* overflow: hidden; */
+  color: var(--text-primary);
+  background: var(--primary);
+}
+
+nav {
+  box-shadow: 0 0 2px 0 rgba(0, 255, 255, 1);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@layer components {
+  .heroButton {
+    @apply px-6 py-2 border border-[#00ffff]/70 rounded-full uppercase md:text-[.6rem] bg-[#0a0a0a]
+    tracking-widest text-[--text-primary] text-[.6rem] opacity-80 hover:opacity-100
+    transition-all hover:border-[#00ffff]/90 hover:text-[#00ffff]/100 duration-500 hover:scale-105;
+  }
 }
