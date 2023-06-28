@@ -1,7 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import avatar from "../../public/avatar.webp";
+import avatar from "../assets/avatar.webp";
 export default function Rings() {
   return (
     <div
@@ -35,6 +35,7 @@ export default function Rings() {
         <div className='pingRing' />
       </motion.div>
       <Image
+        priority
         width={150}
         className='rounded-full object-cover
           absolute top-0 right-0 left-0 bottom-0 m-auto
