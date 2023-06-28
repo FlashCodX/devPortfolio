@@ -4,7 +4,7 @@ type Props = {};
 
 export default function Menu(props: Props) {
   return (
-    <section className='flex gap-5 mx-auto  left-0 right-0 m-auto'>
+    <section className='mt-2 flex gap-4 flex-wrap justify-center'>
       <Link className='heroButton' href='#about'>
         About
       </Link>

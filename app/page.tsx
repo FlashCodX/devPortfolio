@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <main
       className='h-screen snap-y snap-mandatory 
-    overflow-x-hidden overflow-y-hidden z-0 
+      overflow-x-auto
   '
     >
       <HeroSection />

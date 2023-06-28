@@ -38,13 +38,30 @@ nav {
 
 @layer components {
   .heroButton {
-    @apply px-6 py-2 border border-[#00ffff]/70 rounded-full uppercase md:text-[.6rem] bg-[#0a0a0a]
+    @apply px-6 py-2 border border-[#00ffff]/70 rounded-full uppercase md:text-[.7rem] bg-[#0a0a0a]
     tracking-widest text-[--text-primary] text-[.6rem] opacity-80 hover:opacity-100
     transition-all hover:border-[#00ffff]/90 hover:text-[#00ffff]/100 duration-500 hover:scale-105;
   }
 
-  .ring {
-    @apply rounded-full border  border-[--highlight-ring] opacity-20  h-[350px] 
-    w-[350px] md:h-[650px] md:w-[650px] absolute  animate-pulse left-0;
+  .s4Ring {
+    @apply rounded-full border  
+    border-[--highlight-ring] opacity-20 
+     h-[350px] w-[350px] 
+     md:h-[650px] md:w-[650px] 
+     absolute  animate-pulse;
+  }
+  .s3Ring {
+    @apply invisible md:visible rounded-full border   border-[--default-ring]  h-[500px] w-[500px] absolute;
+  }
+
+  .s2Ring {
+    @apply rounded-full border invisible md:visible  border-[--default-ring]  h-[400px] w-[400px] 
+    absolute;
+  }
+  .s1Ring {
+    @apply rounded-full border   border-[--default-ring] w-[250px] h-[250px]  md:h-[300px] md:w-[300px] absolute;
+  }
+  .pingRing {
+    @apply absolute border border-[--default-ring] rounded-full h-[200px] w-[200px] animate-ping;
   }
 }
