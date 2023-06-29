@@ -3,12 +3,12 @@ type Props = {};
 import Link from "next/link";
 import { motion } from "framer-motion";
 
-import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
+import { AiFillLinkedin, AiFillGithub, AiFillMail } from "react-icons/ai";
 
 export default function Navbar(props: Props) {
   return (
     <nav className='fixed w-full top-0 min-h-[80px] flex items-center justify-between  z-20 xl:items-center px-12 overflow-hidden'>
-      <span className='flex justify-between max-w-screen-xl m-auto w-full'>
+      <span className='flex justify-between max-w-screen-xl m-auto w-full overflow-hidden'>
         <motion.div
           initial={{
             x: -500,
@@ -23,16 +23,16 @@ export default function Navbar(props: Props) {
           transition={{
             duration: 1.5,
           }}
-          className='flex flex-row items-center  '
+          className='flex flex-row items-center gap-3  '
         >
           <AiFillLinkedin fontSize={36} />
           <AiFillGithub fontSize={36} />
         </motion.div>
-        <Link href={"#contact"}>
+        <Link href={"#contactme"}>
           <motion.div
             initial={{
               x: 500,
-              opacity: 0,
+              opacity: 0.7,
               scale: 0.5,
             }}
             animate={{
@@ -43,11 +43,11 @@ export default function Navbar(props: Props) {
             transition={{
               duration: 1.5,
             }}
-            className='flex flex-row items-center text-white  cursor-pointer'
+            className='flex flex-row items-center gap-3 text-white  cursor-pointer'
           >
-            <AiFillGithub fontSize={36} />
+            <AiFillMail fontSize={36} />
 
-            <p className='uppercase hidden md:inline-flex text-sm text-white opacity-75 hover:opacity-100'>
+            <p className='uppercase hidden md:inline-flex text-sm text-white  '>
               Get In Touch
             </p>
           </motion.div>
