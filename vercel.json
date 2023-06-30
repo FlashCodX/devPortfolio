@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/hackertyper/:match*",
-      "destination": "https://example.com/:match*"
+      "destination": "https://hackertyper-flashcodx.vercel.app/:match*"
     }
   ]
 }
