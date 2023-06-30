@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/hackertyper/",
+      "destination": "https://hackertyper-flashcodx.vercel.app/"
+    }
+  ]
+}
