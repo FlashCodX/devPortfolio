@@ -6,3 +6,15 @@
     }
   ]
 }
+
+
+{
+    "rewrites": [
+      {"source": "/admin/", "destination": "https://hackertyper-flashcodx.vercel.app/"},
+      {"source": "/admin/:match*", "destination": "https://hackertyper-flashcodx.vercel.app/:match*"},
+      {"source": "/", "destination": "https://hackertyper-flashcodx.vercel.app/"},
+      {"source": "/:match*", "destination": "https://hackertyper-flashcodx.vercel.app/:match*"},
+
+      
+    ]
+  }
