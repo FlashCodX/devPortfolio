@@ -1,0 +1,119 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "name": "Hacker typer",
+      "url": "https://hackertyper.net/",
+      "images": [
+        {
+          "desktop": {
+            "url": "desktop.png",
+            "alt": "Desktop - Hacker typer"
+          },
+          "tablet": {
+            "url": "tablet.png",
+            "alt": "Tablet - Hacker typer"
+          },
+          "mobile": {
+            "url": "mobile.png",
+            "alt": "Mobile - Hacker typer"
+          }
+        }
+      ],
+      "description": "The hacker typer will add more than one character at once to the screen to make your writing look faster. Open the \"Remote Connection\" program to simulating that you're hacking a top secret governmet server. This automated hacker typer will trigger server responses and will show various programs and warnings on the screen.",
+      "tech": ["HTML", "CSS", "JavaScript", "Next.js", "Node.js"]
+    },
+    {
+      "id": "2",
+      "name": "Spotiy Clone",
+      "url": "https://hackertyper.net/",
+      "images": [
+        {
+          "desktop": {
+            "url": "desktop.png",
+            "alt": "Desktop - Hacker typer"
+          },
+          "tablet": {
+            "url": "tablet.png",
+            "alt": "Tablet - Hacker typer"
+          },
+          "mobile": {
+            "url": "mobile.png",
+            "alt": "Mobile - Hacker typer"
+          }
+        }
+      ],
+      "description": "The hacker typer will add more than one character at once to the screen to make your writing look faster. Open the \"Remote Connection\" program to simulating that you're hacking a top secret governmet server. This automated hacker typer will trigger server responses and will show various programs and warnings on the screen.",
+      "tech": ["HTML", "CSS", "JavaScript", "Next.js", "Node.js"]
+    },
+    {
+      "id": "3",
+      "name": "Spotiy Clone",
+      "url": "https://hackertyper.net/",
+      "images": [
+        {
+          "desktop": {
+            "url": "desktop.png",
+            "alt": "Desktop - Hacker typer"
+          },
+          "tablet": {
+            "url": "tablet.png",
+            "alt": "Tablet - Hacker typer"
+          },
+          "mobile": {
+            "url": "mobile.png",
+            "alt": "Mobile - Hacker typer"
+          }
+        }
+      ],
+      "description": "The hacker typer will add more than one character at once to the screen to make your writing look faster. Open the \"Remote Connection\" program to simulating that you're hacking a top secret governmet server. This automated hacker typer will trigger server responses and will show various programs and warnings on the screen.",
+      "tech": ["HTML", "CSS", "JavaScript", "Next.js", "Node.js"]
+    },
+    {
+      "id": "4",
+      "name": "Spotiy Clone",
+      "url": "https://hackertyper.net/",
+      "images": [
+        {
+          "desktop": {
+            "url": "desktop.png",
+            "alt": "Desktop - Hacker typer"
+          },
+          "tablet": {
+            "url": "tablet.png",
+            "alt": "Tablet - Hacker typer"
+          },
+          "mobile": {
+            "url": "mobile.png",
+            "alt": "Mobile - Hacker typer"
+          }
+        }
+      ],
+      "description": "The hacker typer will add more than one character at once to the screen to make your writing look faster. Open the \"Remote Connection\" program to simulating that you're hacking a top secret governmet server. This automated hacker typer will trigger server responses and will show various programs and warnings on the screen.",
+      "tech": ["HTML", "CSS", "JavaScript", "Next.js", "Node.js"]
+    },
+    {
+      "id": "5",
+      "name": "Spotiy Clone",
+      "url": "https://hackertyper.net/",
+      "images": [
+        {
+          "desktop": {
+            "url": "desktop.png",
+            "alt": "Desktop - Hacker typer"
+          },
+          "tablet": {
+            "url": "tablet.png",
+            "alt": "Tablet - Hacker typer"
+          },
+          "mobile": {
+            "url": "mobile.png",
+            "alt": "Mobile - Hacker typer"
+          }
+        }
+      ],
+      "description": "The hacker typer will add more than one character at once to the screen to make your writing look faster. Open the \"Remote Connection\" program to simulating that you're hacking a top secret governmet server. This automated hacker typer will trigger server responses and will show various programs and warnings on the screen.",
+      "tech": ["HTML", "CSS", "JavaScript", "Next.js", "Node.js"]
+    }
+  ]
+}

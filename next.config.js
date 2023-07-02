@@ -5,6 +5,9 @@ const nextConfig = {
   compiler: {
     reactRemoveProperties: true,
   },
+  images: {
+    domains: ["swiperjs.com"],
+  },
 };
 
 module.exports = nextConfig;

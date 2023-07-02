@@ -1,6 +1,7 @@
 import Navbar from "./components/navbar";
 import "./globals.css";
 import { Roboto } from "next/font/google";
+import { register } from "swiper/element/bundle";
 
 const roboto = Roboto({
   subsets: ["latin"],
@@ -17,6 +18,8 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  register();
+
   return (
     <html lang='en'>
       <body className={roboto.className}>

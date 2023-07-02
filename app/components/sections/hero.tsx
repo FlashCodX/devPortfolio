@@ -1,7 +1,5 @@
-import Image from "next/image";
-import Rings from "./Rings";
-import avatar from "../../public/avatar.webp";
-import Menu from "./menu";
+import Rings from "../Rings";
+import Menu from "../menu";
 type Props = {};
 
 export default function HeroSection(props: Props) {
