@@ -5,6 +5,7 @@
       "name": "Hacker typer",
       "link": "https://hackertyper-flashcodx.vercel.app/",
       "image": "desktop.png",
+      "code": "https://github.com/FlashCodX/hackertyper",
       "description": "The hacker typer will add more than one character at once to the screen to make your writing look faster.",
       "tech": [
         "html",
@@ -22,6 +23,7 @@
       "name": "Tesla",
       "link": "https://hackertyper-flashcodx.vercel.app/",
       "image": "desktop.png",
+      "code": "",
       "description": "The hacker typer will add more than one character at once to the screen to make your writing look faster.",
       "tech": ["html"]
     },
@@ -30,6 +32,7 @@
       "name": "Hacker typer",
       "link": "https://hackertyper-flashcodx.vercel.app/",
       "image": "desktop.png",
+      "code": "",
       "description": "The hacker typer will add more than one character at once to the screen to make your writing look faster.",
       "tech": ["html"]
     },
@@ -38,6 +41,7 @@
       "name": "Hacker typer",
       "link": "https://hackertyper-flashcodx.vercel.app/",
       "image": "desktop.png",
+      "code": "",
       "description": "The hacker typer will add more than one character at once to the screen to make your writing look faster.",
       "tech": ["html"]
     }

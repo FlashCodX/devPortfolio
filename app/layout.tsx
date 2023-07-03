@@ -3,8 +3,10 @@ import "./globals.css";
 import { Roboto } from "next/font/google";
 
 const roboto = Roboto({
+  weight: ["100", "300", "500", "400", "700"],
+  style: ["normal", "italic"],
   subsets: ["latin"],
-  weight: "700",
+  display: "swap",
 });
 
 export const metadata = {

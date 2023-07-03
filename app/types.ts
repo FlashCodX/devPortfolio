@@ -4,6 +4,7 @@ export type Project = {
   link: string;
   description: string;
   image: string;
+  code: string;
   tech: string[];
 };
 

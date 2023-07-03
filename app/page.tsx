@@ -10,7 +10,7 @@ export default function Home() {
       overflow-x-auto
   '
     >
-      <HeroSection />
+      {/* <HeroSection /> */}
       <Projects projects={projects} />
     </main>
   );
