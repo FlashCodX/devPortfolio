@@ -22,6 +22,8 @@
 
 body {
   /* overflow: hidden; */
+  /* overflow: hidden; */
+
   color: var(--text-primary);
   background: var(--primary);
 }
