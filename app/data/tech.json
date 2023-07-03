@@ -1,0 +1,109 @@
+{
+  "data": [
+    {
+      "id": "html",
+      "name": "HTML",
+      "asset": "html.webp"
+    },
+    {
+      "id": "androidStudio",
+      "name": "Android Studio",
+      "asset": "androidStudio.png"
+    },
+    {
+      "id": "asana",
+      "name": "Asana",
+      "asset": "asana.png"
+    },
+    {
+      "id": "css",
+      "name": "CSS",
+      "asset": "css.webp"
+    },
+    {
+      "id": "cypress",
+      "name": "Cypress",
+      "asset": "cypress.png"
+    },
+    {
+      "id": "electron",
+      "name": "Electron",
+      "asset": "electron.png"
+    },
+    {
+      "id": "figma",
+      "name": "Figma",
+      "asset": "figma.png"
+    },
+    {
+      "id": "firebase",
+      "name": "Firebase",
+      "asset": "firebase.png"
+    },
+    {
+      "id": "java",
+      "name": "Java",
+      "asset": "java.png"
+    },
+    {
+      "id": "javascript",
+      "name": "JavaScript",
+      "asset": "javascript.svg"
+    },
+    {
+      "id": "next",
+      "name": "Next.js",
+      "asset": "next.png"
+    },
+    {
+      "id": "nodeJS",
+      "name": "Node.js",
+      "asset": "nodeJS.webp"
+    },
+    {
+      "id": "python",
+      "name": "Python",
+      "asset": "pythno.png"
+    },
+    {
+      "id": "react",
+      "name": "React",
+      "asset": "react.png"
+    },
+    {
+      "id": "reactNative",
+      "name": "React Native",
+      "asset": "reactNative.png"
+    },
+    {
+      "id": "sanity",
+      "name": "Sanity",
+      "asset": "sanity.png"
+    },
+    {
+      "id": "spotifyAPI",
+      "name": "Spotify API",
+      "asset": "spotifyAPI.png"
+    },
+    {
+      "id": "swiperJS",
+      "name": "Swiper.js",
+      "asset": "swiperJS.svg"
+    },
+    {
+      "id": "tailwindCSS",
+      "name": "Tailwind CSS",
+      "asset": "tailwindCSS.svg"
+    },
+    {
+      "id": "typescript",
+      "name": "TypeScript",
+      "asset": "typescript.png"
+    },
+    {
+      "id": "vscode",
+      "name": "Visual Studio Code",
+      "asset": "vscode.png"
+    }
+  ]
+}

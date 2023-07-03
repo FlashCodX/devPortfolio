@@ -43,7 +43,7 @@ export default function Navbar(props: Props) {
             transition={{
               duration: 1.5,
             }}
-            className='flex flex-row items-center gap-3 text-white  cursor-pointer'
+            className='flex flex-row items-center gap-3 text-white cursor-pointer'
           >
             <AiFillMail fontSize={36} />
 

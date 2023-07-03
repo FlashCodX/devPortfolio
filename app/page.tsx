@@ -1,7 +1,6 @@
-import Image from "next/image";
-import HeroSection from "./components/sections/hero";
-import ProjectsSection from "./components/sections/projects-section";
 import getProjects from "./lib/server/get-projects";
+import { Projects } from "./components/sections/projects";
+import HeroSection from "./components/sections/hero";
 
 export default function Home() {
   const projects = getProjects();
@@ -11,8 +10,8 @@ export default function Home() {
       overflow-x-auto
   '
     >
-      {/* <HeroSection /> */}
-      <ProjectsSection projects={projects} />
+      <HeroSection />
+      <Projects projects={projects} />
     </main>
   );
 }
