@@ -7,7 +7,7 @@ import { AiFillLinkedin, AiFillGithub, AiFillMail } from "react-icons/ai";
 
 export default function Navbar(props: Props) {
   return (
-    <nav className='fixed w-full top-0 min-h-[80px] flex items-center justify-between  z-20 xl:items-center px-12 overflow-hidden'>
+    <nav className='fixed w-full top-0 min-h-[80px] flex items-center justify-between  z-20 xl:items-center px-12 overflow-hidden bg-[--primary]'>
       <span className='flex justify-between max-w-screen-xl m-auto w-full overflow-hidden'>
         <motion.div
           initial={{

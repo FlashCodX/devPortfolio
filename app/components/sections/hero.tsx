@@ -6,6 +6,7 @@ export default function HeroSection(props: Props) {
   return (
     <div
       className='relative min-h-screen 
+      snap-center
       overflow-hidden
     flex  space-y-8 items-center justify-center text-center 
     

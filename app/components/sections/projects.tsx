@@ -7,7 +7,10 @@ type Props = {
 
 export const Projects = ({ projects }: Props) => {
   return (
-    <section className='min-h-screen w-full flex flex-col  mt-[80px] pt-36 relative  gap-12 px-12 '>
+    <section
+      id='projects'
+      className='min-h-screen max-w-screen-xl mx-auto w-full flex flex-col  mt-[80px] pt-32 relative  gap-12  snap-center '
+    >
       <h1 className='relative font-bold uppercase tracking-[10px] lg:tracking-[6px] text-center text-[--secondary] text-3xl lg:text-4xl'>
         Projects
       </h1>
@@ -17,8 +20,11 @@ export const Projects = ({ projects }: Props) => {
       grid-cols-1
       lg:grid-cols-2
       xl:grid-cols-3
-      
-      2xl:grid-cols-4
+      overflow-scroll
+      auto-rows-min
+      relative
+      max-h-[70vh]
+      2xl:grid-cols-3
       gap-7
 
       '

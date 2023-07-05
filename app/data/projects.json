@@ -20,28 +20,28 @@
     },
     {
       "id": "tesla",
-      "name": "Tesla",
-      "link": "https://hackertyper-flashcodx.vercel.app/",
+      "name": "Tesla Clone",
+      "link": "https://flashcodx.github.io/Tesla/",
       "image": "desktop.png",
-      "code": "",
-      "description": "The hacker typer will add more than one character at once to the screen to make your writing look faster.",
+      "code": "https://github.com/FlashCodX/Tesla",
+      "description": "Tesla website clone",
       "tech": ["html"]
     },
     {
       "id": "spotify",
-      "name": "Hacker typer",
-      "link": "https://hackertyper-flashcodx.vercel.app/",
+      "name": "Spotify Clone",
+      "link": "https://flashcodx.github.io/Spotify/",
       "image": "desktop.png",
-      "code": "",
+      "code": "https://github.com/FlashCodX/Spotify",
       "description": "The hacker typer will add more than one character at once to the screen to make your writing look faster.",
       "tech": ["html"]
     },
     {
       "id": "poster",
-      "name": "Hacker typer",
-      "link": "https://hackertyper-flashcodx.vercel.app/",
+      "name": "Poster",
+      "link": "https://poster-app.vercel.app/",
       "image": "desktop.png",
-      "code": "",
+      "code": "https://github.com/FlashCodX/Poster-app",
       "description": "The hacker typer will add more than one character at once to the screen to make your writing look faster.",
       "tech": ["html"]
     }

@@ -6,11 +6,10 @@ export default function Home() {
   const projects = getProjects();
   return (
     <main
-      className='h-screen snap-y snap-mandatory 
-      overflow-x-auto
+      className='h-screen snap-y snap-mandatory overflow-x-auto scroll-smooth
   '
     >
-      {/* <HeroSection /> */}
+      <HeroSection />
       <Projects projects={projects} />
     </main>
   );
