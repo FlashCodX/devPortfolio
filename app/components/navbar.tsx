@@ -28,7 +28,7 @@ export default function Navbar(props: Props) {
           <AiFillLinkedin fontSize={36} />
           <AiFillGithub fontSize={36} />
         </motion.div>
-        <Link href={"#contactme"}>
+        <Link href={"#contact"}>
           <motion.div
             initial={{
               x: 500,
