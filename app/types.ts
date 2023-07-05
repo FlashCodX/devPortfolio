@@ -8,7 +8,7 @@ export type Project = {
   tech: string[];
 };
 
-export type Tech = {
+export type Skill = {
   id: string;
   name: string;
   asset: string;

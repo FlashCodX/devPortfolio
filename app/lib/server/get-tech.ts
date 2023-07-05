@@ -1,6 +1,6 @@
 import "server-only";
 import data from "../../data/tech.json";
-export function getTech() {
+export function getSkills() {
   const tech = data.data;
 
   return tech;

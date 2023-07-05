@@ -26,6 +26,8 @@ export const Projects = ({ projects }: Props) => {
       max-h-[70vh]
       2xl:grid-cols-3
       gap-7
+      px-12
+      xl:px-4
 
       '
       >
